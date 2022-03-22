@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "196637584762",
+    "project_id": "airplane-3fee1",
+    "storage_bucket": "airplane-3fee1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:196637584762:android:1c360df0874096a4427ac3",
+        "android_client_info": {
+          "package_name": "com.ywild.airplane"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "196637584762-t1e53q3cbpbo68v2duf62kaajtg2qg4l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXKP8-_t0V7LD-hyAvV1_Vfy4PfylSlmQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "196637584762-t1e53q3cbpbo68v2duf62kaajtg2qg4l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
