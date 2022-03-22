@@ -32,14 +32,16 @@ class _TransactionPageState extends State<TransactionPage> {
               child: Text('Kamu Belum Melakukan Transaksi'),
             );
           } else {
-            return ListView.builder(
-                itemCount: state.transactions.length,
-                padding: EdgeInsets.symmetric(
-                  horizontal: defaultMargin,
-                ),
-                itemBuilder: (context, index) {
-                  return TransactionCard(state.transactions[index]);
-                });
+            return SafeArea(
+              child: ListView.builder(
+                  itemCount: state.transactions.length,
+                  padding: EdgeInsets.symmetric(
+                    horizontal: defaultMargin,
+                  ),
+                  itemBuilder: (context, index) {
+                    return TransactionCard(state.transactions[index]);
+                  }),
+            );
           }
         }
         return Center(
